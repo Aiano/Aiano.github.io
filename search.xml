@@ -21,6 +21,10 @@
 <li>SPI</li>
 </ul>
 <h2 id="上位机"><a href="#上位机" class="headerlink" title="上位机"></a>上位机</h2>]]></content>
+      <categories>
+        <category>项目</category>
+        <category>电机驱动</category>
+      </categories>
       <tags>
         <tag>Project</tag>
         <tag>FOC</tag>
@@ -40,22 +44,19 @@
 <p>显然两者的路径是不同的，为了解决这个问题，需要修改插件。</p>
 <h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><h3 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h3><p>在根目录运行：</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-asset-image --save</span><br></pre></td></tr></table></figure>
-
 <h3 id="修改插件"><a href="#修改插件" class="headerlink" title="修改插件"></a>修改插件</h3><p>原插件太老，已经不支持新版的Hexo了。</p>
 <p>打开<code>Blog\node_modules\hexo-asset-image\index.js</code></p>
 <p>将第58行修改为：</p>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line">$(<span class="variable language_">this</span>).<span class="title function_">attr</span>(<span class="string">&#x27;src&#x27;</span>, src);</span><br></pre></td></tr></table></figure>
-
 <h3 id="修改Hexo配置"><a href="#修改Hexo配置" class="headerlink" title="修改Hexo配置"></a>修改Hexo配置</h3><p>修改根目录下的<code>_config.yml</code></p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">post_asset_folder:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-
 <h3 id="重新生成"><a href="#重新生成" class="headerlink" title="重新生成"></a>重新生成</h3><p>根目录下运行：</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo clean &amp; hexo g &amp; hexo s</span><br></pre></td></tr></table></figure>
-
-
-
 <h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://zhuanlan.zhihu.com/p/542101567">Hexo 图片插入无法显示的问题 - 知乎 (zhihu.com)</a></p>
 ]]></content>
+      <categories>
+        <category>踩坑</category>
+      </categories>
       <tags>
         <tag>Debug</tag>
         <tag>Hexo</tag>
@@ -65,10 +66,31 @@
   <entry>
     <title>学习笔记-新概念模拟电路-负反馈和运算放大器</title>
     <url>/2024/02/15/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E6%96%B0%E6%A6%82%E5%BF%B5%E6%A8%A1%E6%8B%9F%E7%94%B5%E8%B7%AF-%E8%B4%9F%E5%8F%8D%E9%A6%88%E5%92%8C%E8%BF%90%E7%AE%97%E6%94%BE%E5%A4%A7%E5%99%A8/</url>
-    <content><![CDATA[<h1 id="【学习笔记】新概念模拟电路-负反馈和运算放大器"><a href="#【学习笔记】新概念模拟电路-负反馈和运算放大器" class="headerlink" title="【学习笔记】新概念模拟电路-负反馈和运算放大器"></a>【学习笔记】新概念模拟电路-负反馈和运算放大器</h1><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><blockquote>
+    <content><![CDATA[<h1 id="【学习笔记】新概念模拟电路-负反馈和运算放大器"><a href="#【学习笔记】新概念模拟电路-负反馈和运算放大器" class="headerlink" title="【学习笔记】新概念模拟电路-负反馈和运算放大器"></a>【学习笔记】新概念模拟电路-负反馈和运算放大器</h1><h2 id="理想运算放大器"><a href="#理想运算放大器" class="headerlink" title="理想运算放大器"></a>理想运算放大器</h2><h3 id="理想运放"><a href="#理想运放" class="headerlink" title="理想运放"></a>理想运放</h3><p><img src="image-20240215165122358.png" alt="理想运算放大器" style="zoom:50%;"></p>
+<p>特性表达式：</p>
+<script type="math/tex; mode=display">
+u_o=A_{uo}(u_+-u_-)</script><p>特点：</p>
+<ol>
+<li><script type="math/tex">A_{uo}</script>为无穷大，带宽0~∞</li>
+<li>输入端具有无穷大输入阻抗</li>
+<li>输出端输出阻抗为0</li>
+</ol>
+<h3 id="开环连接"><a href="#开环连接" class="headerlink" title="开环连接"></a>开环连接</h3><p>开环连接，运放会顶到电源轨。</p>
+<p><img src="image-20240215165924230.png" alt="理想运放开环连接" style="zoom:50%;"></p>
+<p>这里使用TINA进行仿真，输入信号为1kHz，1V的正弦波。</p>
+<p><img src="image-20240215170157450.png" alt="理想运放开环连接TINA仿真"></p>
+<p>因此开环连接不能正确放大信号。</p>
+<h3 id="闭环连接"><a href="#闭环连接" class="headerlink" title="闭环连接"></a>闭环连接</h3><p><img src="image-20240215171444834.png" alt="理想运放闭环连接" style="zoom:50%;"></p>
+<p>仿真如下</p>
+<p><img src="image-20240215171839359.png" alt="理想运放闭环连接TINA仿真"></p>
+<p>可以看到信号被正确地放大了十倍，事实上，这是一个同相比例放大器。</p>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><blockquote>
 <p><a href="https://www.bilibili.com/video/BV1jZ4y1p7M8/">新概念模拟电路|负反馈和运算放大器全集 西安交通大学杨建国 #第2册#_哔哩哔哩_bilibili</a></p>
 </blockquote>
 ]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
       <tags>
         <tag>Note</tag>
         <tag>Analog</tag>
@@ -108,13 +130,13 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>tags</title>
+    <title>标签</title>
     <url>/tags/index.html</url>
     <content><![CDATA[<p>这里是标签页</p>
 ]]></content>
   </entry>
   <entry>
-    <title>categories</title>
+    <title>分类</title>
     <url>/categories/index.html</url>
     <content><![CDATA[]]></content>
   </entry>
