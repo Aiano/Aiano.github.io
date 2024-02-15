@@ -63,6 +63,20 @@
       </tags>
   </entry>
   <entry>
+    <title>学习笔记-新概念模拟电路-负反馈和运算放大器</title>
+    <url>/2024/02/15/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E6%96%B0%E6%A6%82%E5%BF%B5%E6%A8%A1%E6%8B%9F%E7%94%B5%E8%B7%AF-%E8%B4%9F%E5%8F%8D%E9%A6%88%E5%92%8C%E8%BF%90%E7%AE%97%E6%94%BE%E5%A4%A7%E5%99%A8/</url>
+    <content><![CDATA[<h1 id="【学习笔记】新概念模拟电路-负反馈和运算放大器"><a href="#【学习笔记】新概念模拟电路-负反馈和运算放大器" class="headerlink" title="【学习笔记】新概念模拟电路-负反馈和运算放大器"></a>【学习笔记】新概念模拟电路-负反馈和运算放大器</h1><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><blockquote>
+<p><a href="https://www.bilibili.com/video/BV1jZ4y1p7M8/">新概念模拟电路|负反馈和运算放大器全集 西安交通大学杨建国 #第2册#_哔哩哔哩_bilibili</a></p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>Note</tag>
+        <tag>Analog</tag>
+        <tag>OPA</tag>
+        <tag>Feedback</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>关于我</title>
     <url>/about/index.html</url>
     <content><![CDATA[<p><img src="1.jpg" alt="1"></p>
@@ -103,5 +117,15 @@
     <title>categories</title>
     <url>/categories/index.html</url>
     <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/test/index.html</url>
+    <content><![CDATA[<h1 id="测试Hexo-Butterfly页面"><a href="#测试Hexo-Butterfly页面" class="headerlink" title="测试Hexo+Butterfly页面"></a>测试Hexo+Butterfly页面</h1><h2 id="数学"><a href="#数学" class="headerlink" title="数学"></a>数学</h2><p>测试一下数学显示效果。</p>
+<script type="math/tex; mode=display">
+E=mc^2</script><script type="math/tex; mode=display">
+\begin{eqnarray} 
+  \sigma(z) \equiv \frac{1}{1+e^{-z}}.
+\end{eqnarray}</script>]]></content>
   </entry>
 </search>
