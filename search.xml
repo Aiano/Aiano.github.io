@@ -1,365 +1,217 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>FOCModule</title>
-    <url>/2024/02/05/FOCModule/</url>
-    <content><![CDATA[<p>FOC Module项目的目标是打造一款<strong>通用、易上手</strong>的有感FOC驱动器，只需要通过<strong>简单配置</strong>即可适配大多数无刷直流电机。</p>
-<p><img src="1.jpg" alt="1"></p>
-<p><img src="2.jpg" alt="2"></p>
-<h2 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h2><ul>
-<li>12~48V 10A</li>
-<li>小尺寸</li>
-<li>多接口</li>
-<li>兼容多种磁编码器</li>
-</ul>
-<h2 id="接口"><a href="#接口" class="headerlink" title="接口"></a>接口</h2><h3 id="控制"><a href="#控制" class="headerlink" title="控制"></a>控制</h3><ul>
-<li>CAN</li>
-<li>RS-485</li>
-</ul>
-<h3 id="磁编码器"><a href="#磁编码器" class="headerlink" title="磁编码器"></a>磁编码器</h3><ul>
-<li>I2C</li>
-<li>SPI</li>
-</ul>
-<h2 id="上位机"><a href="#上位机" class="headerlink" title="上位机"></a>上位机</h2>]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>学习笔记-电子器件与材料</title>
+      <link href="/2024/02/26/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E7%94%B5%E5%AD%90%E5%99%A8%E4%BB%B6%E4%B8%8E%E6%9D%90%E6%96%99/"/>
+      <url>/2024/02/26/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E7%94%B5%E5%AD%90%E5%99%A8%E4%BB%B6%E4%B8%8E%E6%9D%90%E6%96%99/</url>
+      
+        <content type="html"><![CDATA[<p>[toc]</p><h1 id="电子材料概论"><a href="#电子材料概论" class="headerlink" title="电子材料概论"></a>电子材料概论</h1><h2 id="电子材料的分类"><a href="#电子材料的分类" class="headerlink" title="电子材料的分类"></a>电子材料的分类</h2><h3 id="按用途分类"><a href="#按用途分类" class="headerlink" title="按用途分类"></a>按用途分类</h3><h4 id="结构电子材料"><a href="#结构电子材料" class="headerlink" title="结构电子材料"></a>结构电子材料</h4><p>能承受一定的压力和重力，并能保持尺寸和大部分力学性质（强度、硬度及韧性）稳定的一类材料。结构电子材料在电子元器件中主要用来制作外壳、基片、框架、散热片、加固和封装等。</p><h4 id="功能电子材料"><a href="#功能电子材料" class="headerlink" title="功能电子材料"></a>功能电子材料</h4><p>除强度性能外，还有其特殊功能，如能实现光、电、磁、热、力等不同形式的交互作用和转换的材料。功能材料对外界环境具有灵敏的反应能力。</p><p>例如热→电的热释电材料，可用于红外线成像；光→电材料，单晶硅、多晶硅、非晶硅，钙钛矿型太阳能电池效率&gt;20%。</p><h3 id="按组成分类"><a href="#按组成分类" class="headerlink" title="按组成分类"></a>按组成分类</h3><h4 id="无机电子材料"><a href="#无机电子材料" class="headerlink" title="无机电子材料"></a>无机电子材料</h4><h5 id="金属材料"><a href="#金属材料" class="headerlink" title="金属材料"></a>金属材料</h5><p>以金属键结合。</p><h5 id="非金属材料"><a href="#非金属材料" class="headerlink" title="非金属材料"></a>非金属材料</h5><p>以离子键和共价键结合。</p><h4 id="有机电子材料"><a href="#有机电子材料" class="headerlink" title="有机电子材料"></a>有机电子材料</h4><p>以C、H、O、N、Cl、F等组成的高分子材料，大部分是以共价键和分子键结合。</p><p>例如有机高分子材料、液晶材料。</p><h3 id="按物理性质分类"><a href="#按物理性质分类" class="headerlink" title="按物理性质分类"></a>按物理性质分类</h3><ul><li>导电材料</li><li>超导材料</li><li>半导体材料</li><li>绝缘材料</li><li>压电铁电材料</li><li>磁性材料</li><li>光电材料</li><li>敏感材料</li></ul><h3 id="按应用领域分类"><a href="#按应用领域分类" class="headerlink" title="按应用领域分类"></a>按应用领域分类</h3><ul><li>微电子材料</li><li>电阻器材料</li><li>电容器材料</li><li>磁性材料</li><li>光电子材料</li><li>压电材料</li><li>电声材料</li><li>敏感吸波材料</li><li>封装材料</li></ul><h2 id="电子陶瓷制备工艺"><a href="#电子陶瓷制备工艺" class="headerlink" title="电子陶瓷制备工艺"></a>电子陶瓷制备工艺</h2><p>常规制作流程：制粉-成型-烧结</p><ul><li>制粉：原料：精细化工原料</li><li>成型：干压成型、扎膜成型、流延成型、等静压成型</li><li>烧结</li></ul><h1 id="电子陶瓷"><a href="#电子陶瓷" class="headerlink" title="电子陶瓷"></a>电子陶瓷</h1><h2 id="密堆积与配位数"><a href="#密堆积与配位数" class="headerlink" title="密堆积与配位数"></a>密堆积与配位数</h2><h3 id="密堆积"><a href="#密堆积" class="headerlink" title="密堆积"></a>密堆积</h3><h4 id="等径球密堆积"><a href="#等径球密堆积" class="headerlink" title="等径球密堆积"></a>等径球密堆积</h4><p>只有两种</p><h5 id="六方密堆积"><a href="#六方密堆积" class="headerlink" title="六方密堆积"></a>六方密堆积</h5><p>（Hexagonal Closed-Packed, hcp)</p><p>ABABAB</p><p><img src="1-376-png_6_0_0_0_0_0_0_892.979_1262.879-893-0-602-893.jpg" alt="六方最密堆积_word文档在线阅读与下载_免费文档"></p><p>Mg、Zn、Ti等金属采用六方密堆积</p><h5 id="面心立方密堆积"><a href="#面心立方密堆积" class="headerlink" title="面心立方密堆积"></a>面心立方密堆积</h5><p>(Face Center Cubic, fcc)</p><p>ABCABCABC</p><p><img src="v2-ede4d4a7648b6cce774f2ae313986f8c_r.jpg" alt="面心立方最密堆积晶胞是不是正方体，按结构看不应该是个斜的四棱柱吗？ - 知乎" style="zoom:10%;"></p><p>Cu、Ag、Au等金属采用面心立方密堆积</p><h4 id="体心立方堆积"><a href="#体心立方堆积" class="headerlink" title="体心立方堆积"></a>体心立方堆积</h4><p>(Body Center Cubic, bcc)</p><p>==不是密堆积==</p><h4 id="简立方堆积"><a href="#简立方堆积" class="headerlink" title="简立方堆积"></a>简立方堆积</h4><p>(Simple Cubic)</p><p>==不是密堆积==</p><p>仅有钋（Po）是这种晶体结构</p><h4 id="不等径球密堆积"><a href="#不等径球密堆积" class="headerlink" title="不等径球密堆积"></a>不等径球密堆积</h4><p>对于金属氧化物：由半径较大的O^2-^离子作密堆积，金属离子填充在空隙中</p><ul><li>三球空隙：$\frac{r<em>+}{r</em>-}=0.155$</li><li>四球空隙：$\frac{r<em>+}{r</em>-}=0.225$</li><li>六球空隙：$\frac{r<em>+}{r</em>-}=0.414$</li><li>八球空隙：$\frac{r<em>+}{r</em>-}=0.732$</li><li>十二球空隙：$\frac{r<em>+}{r</em>-}=1$</li></ul><h3 id="间隙"><a href="#间隙" class="headerlink" title="间隙"></a>间隙</h3><p>四个球-<strong>四面体</strong>空隙</p><p>六个球-<strong>八面体</strong>空隙</p><h3 id="配位数"><a href="#配位数" class="headerlink" title="配位数"></a>配位数</h3><ul><li>配位数：和某一圆球相切的圆球数（例如hcp、fcc的配位数为12）</li><li>密堆度：空间被圆球占据的比例（例如hcp、fcc的密堆度为74.05%）</li></ul><h3 id="离子晶体与配位多面体"><a href="#离子晶体与配位多面体" class="headerlink" title="离子晶体与配位多面体"></a>离子晶体与配位多面体</h3><blockquote><p>通常情况下，阳离子要小于阴离子，<strong>阳离子是小球</strong>。</p></blockquote><p>临界半径：小球刚好与大球相切的半径</p><ul><li>若小于临界半径：负离子相互接触，不稳定，配位数减小</li><li>若大于临界半径：正负离子相互接触，趋于稳定，若更大则配位数增加</li><li>在临界半径附近，可以认为存在两种配位数</li></ul><h2 id="鲍林规则"><a href="#鲍林规则" class="headerlink" title="鲍林规则"></a>鲍林规则</h2><h3 id="鲍林第一规则"><a href="#鲍林第一规则" class="headerlink" title="鲍林第一规则"></a>鲍林第一规则</h3><p><strong>负离子配位规则</strong></p><ul><li>每个正离子的周围必然形成负离子多面体</li><li>多面体的构型取决于正负离子的半径比</li></ul><h3 id="鲍林第二规则"><a href="#鲍林第二规则" class="headerlink" title="鲍林第二规则"></a>鲍林第二规则</h3><p><strong>电价规则</strong></p><p>负离子电价的绝对值近似等于临近各正离子分配的静电键强度和。用公式表示为：</p><script type="math/tex; mode=display">|Z^-|=\sum_i{S_i}=\sum_i{Z^+/N}^+</script><p>其中$Z^-$是负离子的电价，$Z^+$是正离子的电价，S是静电键强度，$N^+$是阳离子的配位数。</p><p><strong>作用：</strong></p><ul><li>判断晶体是否稳定</li><li>判断共用一个顶点的多面体数目</li></ul><h3 id="鲍林第三规则"><a href="#鲍林第三规则" class="headerlink" title="鲍林第三规则"></a>鲍林第三规则</h3><p><strong>多面体组联规则</strong></p><p>配位的多面体之间，公用的棱数越多，公用面数越多，结构的稳定性就越低。</p><p><strong>原因：</strong>中心阳离子举例缩短，库仑斥力增大，稳定性降低</p><h3 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h3><p><img src="image-20240229225817087.png" alt="image-20240229225817087" style="zoom: 80%;"></p><p><img src="image-20240229230236054.png" alt="image-20240229230236054" style="zoom:80%;"></p>]]></content>
+      
+      
       <categories>
-        <category>项目</category>
-        <category>电机驱动</category>
+          
+          <category> 学习笔记 </category>
+          
       </categories>
-      <tags>
-        <tag>Project</tag>
-        <tag>FOC</tag>
-        <tag>BLDC</tag>
-        <tag>Driver</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>解决Hexo+Butterfly主题插入图片无法显示的问题</title>
-    <url>/2024/02/14/%E8%A7%A3%E5%86%B3Hexo-Butterfly%E4%B8%BB%E9%A2%98%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA%E7%9A%84%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<h2 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h2><p>使用Hexo和Butterfly主题，在Markdown文件中插入图片，使用Typora可以正常显示，但是本地网页和部署到Github Page上都无法正常显示。</p>
-<p><img src="image-20240214210136603.png" alt="网页上显示的效果"></p>
-<h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>对网页的图片右键-&gt;检查，发现：</p>
-<p><img src="image-20240214210322385.png" alt="错误的图片地址"></p>
-<p>对比<code>public</code>文件夹中的图片路径：</p>
-<p><img src="image-20240214210422795.png" alt="public文件夹中的图片路径"></p>
-<p>显然两者的路径是不同的，为了解决这个问题，需要修改插件。</p>
-<h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><h3 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h3><p>在根目录运行：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-asset-image --save</span><br></pre></td></tr></table></figure>
-<h3 id="修改插件"><a href="#修改插件" class="headerlink" title="修改插件"></a>修改插件</h3><p>原插件太老，已经不支持新版的Hexo了。</p>
-<p>打开<code>Blog\node_modules\hexo-asset-image\index.js</code></p>
-<p>将第58行修改为：</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">$(<span class="variable language_">this</span>).<span class="title function_">attr</span>(<span class="string">&#x27;src&#x27;</span>, src);</span><br></pre></td></tr></table></figure>
-<h3 id="修改Hexo配置"><a href="#修改Hexo配置" class="headerlink" title="修改Hexo配置"></a>修改Hexo配置</h3><p>修改根目录下的<code>_config.yml</code></p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">post_asset_folder:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-<h3 id="重新生成"><a href="#重新生成" class="headerlink" title="重新生成"></a>重新生成</h3><p>根目录下运行：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo clean &amp; hexo g &amp; hexo s</span><br></pre></td></tr></table></figure>
-<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://zhuanlan.zhihu.com/p/542101567">Hexo 图片插入无法显示的问题 - 知乎 (zhihu.com)</a></p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> Note </tag>
+            
+            <tag> Electronic Device </tag>
+            
+            <tag> Electronic Material </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>学习笔记-控制之美-控制理论从传递函数到状态空间</title>
+      <link href="/2024/02/17/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E6%8E%A7%E5%88%B6%E4%B9%8B%E7%BE%8E-%E6%8E%A7%E5%88%B6%E7%90%86%E8%AE%BA%E4%BB%8E%E4%BC%A0%E9%80%92%E5%87%BD%E6%95%B0%E5%88%B0%E7%8A%B6%E6%80%81%E7%A9%BA%E9%97%B4/"/>
+      <url>/2024/02/17/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E6%8E%A7%E5%88%B6%E4%B9%8B%E7%BE%8E-%E6%8E%A7%E5%88%B6%E7%90%86%E8%AE%BA%E4%BB%8E%E4%BC%A0%E9%80%92%E5%87%BD%E6%95%B0%E5%88%B0%E7%8A%B6%E6%80%81%E7%A9%BA%E9%97%B4/</url>
+      
+        <content type="html"><![CDATA[<h1 id="【学习笔记】控制之美-控制理论从传递函数到状态空间"><a href="#【学习笔记】控制之美-控制理论从传递函数到状态空间" class="headerlink" title="【学习笔记】控制之美-控制理论从传递函数到状态空间"></a>【学习笔记】控制之美-控制理论从传递函数到状态空间</h1><h2 id="动态系统建模-传递函数"><a href="#动态系统建模-传递函数" class="headerlink" title="动态系统建模-传递函数"></a>动态系统建模-传递函数</h2><h2 id="动态系统建模-状态空间方程"><a href="#动态系统建模-状态空间方程" class="headerlink" title="动态系统建模-状态空间方程"></a>动态系统建模-状态空间方程</h2><h3 id="状态空间方程"><a href="#状态空间方程" class="headerlink" title="状态空间方程"></a>状态空间方程</h3><h4 id="状态空间方程表达式"><a href="#状态空间方程表达式" class="headerlink" title="状态空间方程表达式"></a>状态空间方程表达式</h4><p>用一系列的<strong>一阶</strong>微分方程表达系统的输入、输出及状态变量。</p><blockquote><p>对于n阶微分方程，可以设置n个状态变量，将n阶微分方程拆解为n个一阶微分方程，故系统的阶数等于状态变量的个数。</p></blockquote><p>一般形式：</p><script type="math/tex; mode=display">\begin{cases}    \frac{\mathrm{d}\boldsymbol{z}\left( t \right)}{\mathrm{d}t}=\boldsymbol{Az}\left( t \right) +\boldsymbol{Bu}\left( t \right)\\    \boldsymbol{y}\left( t \right) =\boldsymbol{Cz}\left( t \right) +\boldsymbol{Du}\left( t \right)\\\end{cases}</script><p>符号说明：</p><div class="table-container"><table><thead><tr><th>符号</th><th>名称</th><th>维度</th></tr></thead><tbody><tr><td>$\boldsymbol{z}(t)$</td><td>状态变量</td><td>n x 1</td></tr><tr><td>$\boldsymbol{y}(t)$</td><td>系统输出</td><td>m x 1</td></tr><tr><td>$\boldsymbol{u}(t)$</td><td>系统输入</td><td>p x 1</td></tr><tr><td>$\boldsymbol{A}$</td><td>状态矩阵</td><td>n x n</td></tr><tr><td>$\boldsymbol{B}$</td><td>输入矩阵</td><td>n x p</td></tr><tr><td>$\boldsymbol{C}$</td><td>输出矩阵</td><td>m x n</td></tr><tr><td>$\boldsymbol{D}$</td><td>直接传递矩阵</td><td>m x p</td></tr></tbody></table></div><blockquote><p>状态空间方程可以处理<strong>单输入单输出（Single Input Single Output, SISO）系统</strong>，也可以处理<strong>多输入多输出（Multiple Inputs Multiple Outputs, MIMO）系统</strong>。</p></blockquote><h4 id="状态空间方程与传递函数的关系"><a href="#状态空间方程与传递函数的关系" class="headerlink" title="状态空间方程与传递函数的关系"></a>状态空间方程与传递函数的关系</h4><p>对状态空间方程等号左右两端同时作拉普拉斯变换：</p><script type="math/tex; mode=display">\mathcal{L} \left[ \frac{\mathrm{d}\boldsymbol{z}\left( t \right)}{\mathrm{d}t} \right] =\mathcal{L} \left[ \boldsymbol{Az}\left( t \right) +\boldsymbol{Bu}\left( t \right) \right] \\\mathcal{L} \left[ \boldsymbol{y}\left( t \right) \right] =\mathcal{L} \left[ \boldsymbol{Cz}\left( t \right) +\boldsymbol{Du}\left( t \right) \right]</script><p>得到：</p><script type="math/tex; mode=display">s\boldsymbol{Z}\left( s \right) =\boldsymbol{AZ}\left( s \right) +\boldsymbol{BU}\left( s \right) \\\boldsymbol{Y}\left( s \right) =\boldsymbol{CZ}\left( s \right) +\boldsymbol{DU}\left( s \right)</script><p>调整，得到系统传递函数：</p><script type="math/tex; mode=display">G\left( s \right) =\frac{\boldsymbol{Y}\left( s \right)}{\boldsymbol{U}\left( s \right)}=\boldsymbol{C}\left( s\boldsymbol{I}-\boldsymbol{A} \right) ^{-1}\boldsymbol{B}+\boldsymbol{D}</script><p>利用矩阵求逆公式：</p><script type="math/tex; mode=display">\left( s\boldsymbol{I}-\boldsymbol{A} \right) ^{-1}=\frac{\left( s\boldsymbol{I}-\boldsymbol{A} \right) ^*}{\left| s\boldsymbol{I}-\boldsymbol{A} \right|}</script><p>最终得到：</p><script type="math/tex; mode=display">G\left( s \right) =\frac{\boldsymbol{Y}\left( s \right)}{\boldsymbol{U}\left( s \right)}=\frac{\boldsymbol{C}\left( s\boldsymbol{I}-\boldsymbol{A} \right) ^*\boldsymbol{B}}{\left| s\boldsymbol{I}-\boldsymbol{A} \right|}+\boldsymbol{D}</script><p>分析上式可知，若令分母等于0，$\left| s\boldsymbol{I}-\boldsymbol{A} \right|=0$得到的s有两层含义：</p><ol><li>从传递函数角度看，它是传递函数的极点；</li><li>从状态矩阵的角度看，它是矩阵$\boldsymbol{A}$的特征值。</li></ol><p>故可得出结论：</p><p><strong>状态矩阵的特征值与其所对应的单输入单输出传递函数的极点相同，极点决定了系统的表现。</strong></p><h3 id="相平面与相轨迹分析"><a href="#相平面与相轨迹分析" class="headerlink" title="相平面与相轨迹分析"></a>相平面与相轨迹分析</h3><p>对于状态空间方程，使用相平面与相轨迹的方法可以快速有效地分析系统。</p><h4 id="相平面数学基础——特征值与特征向量"><a href="#相平面数学基础——特征值与特征向量" class="headerlink" title="相平面数学基础——特征值与特征向量"></a>相平面数学基础——特征值与特征向量</h4><p>对于给定方阵$\boldsymbol{A}$，它的特征向量$\boldsymbol{v}$经过矩阵$\boldsymbol{A}$线性变换后，得到的向量仍然与$\boldsymbol{v}$在同一条直线上，即：</p><script type="math/tex; mode=display">\boldsymbol{Av}=\lambda \boldsymbol{v}</script><p>其中，$\boldsymbol{v}$为$\boldsymbol{A}$的特征向量，$\lambda$为$\boldsymbol{A}$的特征值。</p><p>根据上式：</p><script type="math/tex; mode=display">\left( \boldsymbol{A}-\lambda \boldsymbol{I} \right) \boldsymbol{v}=0</script><p>根据矩阵理论，如果上式有非零解，则$\left( \boldsymbol{A}-\lambda \boldsymbol{I} \right)$的行列式为0，即：</p><script type="math/tex; mode=display">\left| \boldsymbol{A}-\lambda \boldsymbol{I} \right|=0</script><p>代值即可解出特征值，例如：</p><script type="math/tex; mode=display">\lambda^2+\lambda-6=0</script><p>称为矩阵$\boldsymbol{A}$的<strong>特征方程</strong>，</p><p>再将特征值回代第一条式子即可解出特征向量。</p><h4 id="特征值与特征向量应用——线性方程组解耦"><a href="#特征值与特征向量应用——线性方程组解耦" class="headerlink" title="特征值与特征向量应用——线性方程组解耦"></a>特征值与特征向量应用——线性方程组解耦</h4><p><strong>耦合</strong>是指一个系统里两个或以上的状态变量存在相互影响、相互关联的作用。解耦就是解除耦合，就是将状态矩阵对角化。</p><p>考虑一个包含两个状态变量的二阶系统，不考虑输入输出，写成状态空间方程：</p><script type="math/tex; mode=display">\frac{\mathrm{d}\boldsymbol{z}\left( t \right)}{\mathrm{d}t}=\boldsymbol{Az}\left( t \right)</script><p>先定义<strong>过渡矩阵(Transition Matrix)</strong>：</p><script type="math/tex; mode=display">\boldsymbol{P}=\left[ \begin{matrix}    \boldsymbol{v}_1&        \boldsymbol{v}_2\\\end{matrix} \right] =\left[ \begin{matrix}    v_{11}&        v_{21}\\    v_{12}&        v_{22}\\\end{matrix} \right]</script><p>其中$\boldsymbol{v}_1$和$\boldsymbol{v}_2$是矩阵$\boldsymbol{A}$对应的两个特征向量，可得</p><script type="math/tex; mode=display">\boldsymbol{P}^{-1}\boldsymbol{AP}=\boldsymbol{P}^{-1}\boldsymbol{PD}\\\Rightarrow \boldsymbol{P}^{-1}\boldsymbol{AP}=\boldsymbol{D}</script><p>定义新的状态变量$\bar{\boldsymbol{z}}\left( t \right) $，令</p><script type="math/tex; mode=display">\boldsymbol{z}\left( t \right) =\boldsymbol{P}\bar{\boldsymbol{z}}\left( t \right)</script><p>代入状态空间方程：</p><script type="math/tex; mode=display">\boldsymbol{P}\frac{\mathrm{d}\bar{\boldsymbol{z}}\left( t \right)}{\mathrm{d}t}=\boldsymbol{AP}\bar{\boldsymbol{z}}\left( t \right)</script><p>左乘$\boldsymbol{P}^{-1}$得到：</p><script type="math/tex; mode=display">\frac{\mathrm{d}\bar{\boldsymbol{z}}\left( t \right)}{\mathrm{d}t}=\boldsymbol{D}\bar{\boldsymbol{z}}\left( t \right) =\left[ \begin{matrix}    \lambda _1&        0\\    0&        \lambda _2\\\end{matrix} \right] \bar{\boldsymbol{z}}\left( t \right)</script><p>这就完成了线性方程组的解耦，解出$\bar{\boldsymbol{z}}(t)$后再左乘$\boldsymbol{P}$就能得到原状态变量$\boldsymbol{z}(t)$​</p><h4 id="一维相轨迹"><a href="#一维相轨迹" class="headerlink" title="一维相轨迹"></a>一维相轨迹</h4><p><img src="image-20240224000628244.png" alt="一维相轨迹"></p><h4 id="二维相轨迹"><a href="#二维相轨迹" class="headerlink" title="二维相轨迹"></a>二维相轨迹</h4><h3 id="动态系统分析方法"><a href="#动态系统分析方法" class="headerlink" title="动态系统分析方法"></a>动态系统分析方法</h3><ol><li>描述系统：通过语言描述系统特性</li><li>数学分析：使用数学工具对系统进行解析</li><li>结果与讨论：分析结果和进行深层次的思考与讨论</li></ol>]]></content>
+      
+      
       <categories>
-        <category>踩坑</category>
+          
+          <category> 学习笔记 </category>
+          
       </categories>
-      <tags>
-        <tag>Debug</tag>
-        <tag>Hexo</tag>
-        <tag>Butterfly</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>学习笔记-新概念模拟电路-负反馈和运算放大器</title>
-    <url>/2024/02/15/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E6%96%B0%E6%A6%82%E5%BF%B5%E6%A8%A1%E6%8B%9F%E7%94%B5%E8%B7%AF-%E8%B4%9F%E5%8F%8D%E9%A6%88%E5%92%8C%E8%BF%90%E7%AE%97%E6%94%BE%E5%A4%A7%E5%99%A8/</url>
-    <content><![CDATA[<h1 id="【学习笔记】新概念模拟电路-负反馈和运算放大器"><a href="#【学习笔记】新概念模拟电路-负反馈和运算放大器" class="headerlink" title="【学习笔记】新概念模拟电路-负反馈和运算放大器"></a>【学习笔记】新概念模拟电路-负反馈和运算放大器</h1><h2 id="理想运算放大器"><a href="#理想运算放大器" class="headerlink" title="理想运算放大器"></a>理想运算放大器</h2><h3 id="理想运放"><a href="#理想运放" class="headerlink" title="理想运放"></a>理想运放</h3><p><img src="image-20240215165122358.png" alt="理想运算放大器" style="zoom:50%;"></p>
-<p>特性表达式：</p>
-<script type="math/tex; mode=display">
-u_o=A_{uo}(u_+-u_-)</script><p>特点：</p>
-<ol>
-<li>$A_{uo}$为无穷大，带宽0~∞</li>
-<li>输入端具有无穷大输入阻抗</li>
-<li>输出端输出阻抗为0</li>
-</ol>
-<h3 id="开环连接"><a href="#开环连接" class="headerlink" title="开环连接"></a>开环连接</h3><p>开环连接，运放会顶到电源轨。</p>
-<p><img src="image-20240215165924230.png" alt="理想运放开环连接" style="zoom:50%;"></p>
-<p>这里使用TINA进行仿真，输入信号为1kHz，1V的正弦波。</p>
-<p><img src="image-20240215170157450.png" alt="理想运放开环连接TINA仿真"></p>
-<p>因此开环连接不能正确放大信号。</p>
-<h3 id="闭环连接"><a href="#闭环连接" class="headerlink" title="闭环连接"></a>闭环连接</h3><p><img src="image-20240215171444834.png" alt="理想运放闭环连接" style="zoom:50%;"></p>
-<p>仿真如下</p>
-<p><img src="image-20240215171839359.png" alt="理想运放闭环连接TINA仿真"></p>
-<p>可以看到信号被正确地放大了十倍，事实上，这是一个同相比例放大器。</p>
-<h2 id="反馈极性判断"><a href="#反馈极性判断" class="headerlink" title="反馈极性判断"></a>反馈极性判断</h2><h3 id="环路极性法-判断正负反馈"><a href="#环路极性法-判断正负反馈" class="headerlink" title="环路极性法-判断正负反馈"></a>环路极性法-判断正负反馈</h3><p>步骤：</p>
-<ol>
-<li>找到反馈环路</li>
-<li>选择一个节点——通常选择<strong>输出节点</strong></li>
-<li>假设该节点存在正变化量，标为⊕</li>
-<li>沿着反馈环路，每过一个关键节点，对变化量的方向进行判断并标注，正标为⊕，负标为㊀，不变标为⓪</li>
-<li>回到最初节点时，如果仍为⊕，环路为<strong>正反馈</strong>；如果为㊀，环路为<strong>负反馈</strong>；如果为⓪，环路被打断，<strong>不存在反馈</strong></li>
-</ol>
-<h3 id="一些常见的极性传递情况"><a href="#一些常见的极性传递情况" class="headerlink" title="一些常见的极性传递情况"></a>一些常见的极性传递情况</h3><p><img src="image-20240215235035667.png" alt="一些常见的极性传递情况"></p>
-<p>注意：</p>
-<ul>
-<li>对于晶体管放大电路，哪个极没接输入输出，就是“共哪极放大电路”</li>
-<li>电阻和电容串联电路，虽然信号会有滞后，但相位变化介于±90°之间，不是反相，一般符号不变</li>
-<li>当电路中存在<strong>多个环路</strong>时，根据<strong>叠加原理</strong>，分析其中一个环路时，没有涉及到的节点一律<strong>接地</strong></li>
-</ul>
-<h3 id="分析举例"><a href="#分析举例" class="headerlink" title="分析举例"></a>分析举例</h3><p><img src="image-20240215235710157.png" alt="分析举例" style="zoom: 50%;"></p>
-<h2 id="方框图分析法"><a href="#方框图分析法" class="headerlink" title="方框图分析法"></a>方框图分析法</h2><p>方框图分析法与虚短虚断一样可用于分析运放负反馈电路的<strong>闭环放大倍数</strong>$A_{uf}$。</p>
-<p><img src="image-20240216210402546.png" alt="负反馈的方框图" style="zoom:50%;"></p>
-<ul>
-<li>头上带点的是向量，具有相位，$u_I$​​是参考向量，相位为0°</li>
-</ul>
-<p>传递关系可以用下式表示：</p>
-<script type="math/tex; mode=display">
-\left( u_I\times \dot{M}-\dot{u}_O\times \dot{F} \right) \dot{A}_{uo}=\dot{u}_o</script><p>可以得到闭环放大倍数：</p>
-<script type="math/tex; mode=display">
-\dot{A}_{uf}=\frac{\dot{u}_O}{u_I}=\frac{\dot{M}\times \dot{A}_{uo}}{1+\dot{F}\times \dot{A}_{uo}}</script><p>当<script type="math/tex">\dot{A}_{uo}</script>趋于无穷时，上式简化为：</p>
-<script type="math/tex; mode=display">
-\dot{A}_{uf}=\frac{\dot{u}_O}{u_I}\approx \frac{\dot{M}}{\dot{F}}</script><h3 id="M和F的求解方法"><a href="#M和F的求解方法" class="headerlink" title="M和F的求解方法"></a>M和F的求解方法</h3><p>$\dot{M}$ 的含义是，在<strong>不考虑输出回送</strong>的情况下，单纯的输入信号，有多少加载到了运放的输入端上——运放的<strong>正输入减去负输入</strong>：</p>
-<script type="math/tex; mode=display">
-\dot{M}=\frac{\left. \dot{u}_+ \right|_{u_O=0}-\left. \dot{u}_- \right|_{u_O=0}}{u_I}</script><p>$\dot{F}$​ 的含义是，在<strong>不考虑输入</strong>的情况下，单纯的输出信号，有多少加载到了运放的反相输入上——运放的<strong>负输入减去正输入</strong>：</p>
-<script type="math/tex; mode=display">
-\dot{F}=\frac{\left. \dot{u}_- \right|_{u_I=0}-\left. \dot{u}_+ \right|_{u_I=0}}{u_O}</script><blockquote>
-<p><strong>注意：</strong></p>
-<p>有些时候，$\dot{M}$和$\dot{F}$ 不同，相除出的$A_{uf}$可能相同，但是频率特性会有区别。</p>
-</blockquote>
-<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><blockquote>
-<p><a href="https://www.bilibili.com/video/BV1jZ4y1p7M8/">新概念模拟电路|负反馈和运算放大器全集 西安交通大学杨建国 #第2册#_哔哩哔哩_bilibili</a></p>
-</blockquote>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> Note </tag>
+            
+            <tag> Control Theory </tag>
+            
+            <tag> Transfer Function </tag>
+            
+            <tag> State Space </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>学习笔记-新概念模拟电路-负反馈和运算放大器</title>
+      <link href="/2024/02/15/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E6%96%B0%E6%A6%82%E5%BF%B5%E6%A8%A1%E6%8B%9F%E7%94%B5%E8%B7%AF-%E8%B4%9F%E5%8F%8D%E9%A6%88%E5%92%8C%E8%BF%90%E7%AE%97%E6%94%BE%E5%A4%A7%E5%99%A8/"/>
+      <url>/2024/02/15/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E6%96%B0%E6%A6%82%E5%BF%B5%E6%A8%A1%E6%8B%9F%E7%94%B5%E8%B7%AF-%E8%B4%9F%E5%8F%8D%E9%A6%88%E5%92%8C%E8%BF%90%E7%AE%97%E6%94%BE%E5%A4%A7%E5%99%A8/</url>
+      
+        <content type="html"><![CDATA[<h1 id="【学习笔记】新概念模拟电路-负反馈和运算放大器"><a href="#【学习笔记】新概念模拟电路-负反馈和运算放大器" class="headerlink" title="【学习笔记】新概念模拟电路-负反馈和运算放大器"></a>【学习笔记】新概念模拟电路-负反馈和运算放大器</h1><h2 id="理想运算放大器"><a href="#理想运算放大器" class="headerlink" title="理想运算放大器"></a>理想运算放大器</h2><h3 id="理想运放"><a href="#理想运放" class="headerlink" title="理想运放"></a>理想运放</h3><p><img src="image-20240215165122358.png" alt="理想运算放大器" style="zoom:50%;"></p><p>特性表达式：</p><script type="math/tex; mode=display">u_o=A_{uo}(u_+-u_-)</script><p>特点：</p><ol><li>$A_{uo}$为无穷大，带宽0~∞</li><li>输入端具有无穷大输入阻抗</li><li>输出端输出阻抗为0</li></ol><h3 id="开环连接"><a href="#开环连接" class="headerlink" title="开环连接"></a>开环连接</h3><p>开环连接，运放会顶到电源轨。</p><p><img src="image-20240215165924230.png" alt="理想运放开环连接" style="zoom:50%;"></p><p>这里使用TINA进行仿真，输入信号为1kHz，1V的正弦波。</p><p><img src="image-20240215170157450.png" alt="理想运放开环连接TINA仿真"></p><p>因此开环连接不能正确放大信号。</p><h3 id="闭环连接"><a href="#闭环连接" class="headerlink" title="闭环连接"></a>闭环连接</h3><p><img src="image-20240215171444834.png" alt="理想运放闭环连接" style="zoom:50%;"></p><p>仿真如下</p><p><img src="image-20240215171839359.png" alt="理想运放闭环连接TINA仿真"></p><p>可以看到信号被正确地放大了十倍，事实上，这是一个同相比例放大器。</p><h2 id="反馈极性判断"><a href="#反馈极性判断" class="headerlink" title="反馈极性判断"></a>反馈极性判断</h2><h3 id="环路极性法-判断正负反馈"><a href="#环路极性法-判断正负反馈" class="headerlink" title="环路极性法-判断正负反馈"></a>环路极性法-判断正负反馈</h3><p>步骤：</p><ol><li>找到反馈环路</li><li>选择一个节点——通常选择<strong>输出节点</strong></li><li>假设该节点存在正变化量，标为⊕</li><li>沿着反馈环路，每过一个关键节点，对变化量的方向进行判断并标注，正标为⊕，负标为㊀，不变标为⓪</li><li>回到最初节点时，如果仍为⊕，环路为<strong>正反馈</strong>；如果为㊀，环路为<strong>负反馈</strong>；如果为⓪，环路被打断，<strong>不存在反馈</strong></li></ol><h3 id="一些常见的极性传递情况"><a href="#一些常见的极性传递情况" class="headerlink" title="一些常见的极性传递情况"></a>一些常见的极性传递情况</h3><p><img src="image-20240215235035667.png" alt="一些常见的极性传递情况"></p><p>注意：</p><ul><li>对于晶体管放大电路，哪个极没接输入输出，就是“共哪极放大电路”</li><li>电阻和电容串联电路，虽然信号会有滞后，但相位变化介于±90°之间，不是反相，一般符号不变</li><li>当电路中存在<strong>多个环路</strong>时，根据<strong>叠加原理</strong>，分析其中一个环路时，没有涉及到的节点一律<strong>接地</strong></li></ul><h3 id="分析举例"><a href="#分析举例" class="headerlink" title="分析举例"></a>分析举例</h3><p><img src="image-20240215235710157.png" alt="分析举例" style="zoom: 50%;"></p><h2 id="方框图分析法"><a href="#方框图分析法" class="headerlink" title="方框图分析法"></a>方框图分析法</h2><p>方框图分析法与虚短虚断一样可用于分析运放负反馈电路的<strong>闭环放大倍数</strong>$A_{uf}$。</p><p><img src="image-20240216210402546.png" alt="负反馈的方框图" style="zoom:50%;"></p><ul><li>头上带点的是向量，具有相位，$u_I$​​是参考向量，相位为0°</li></ul><p>传递关系可以用下式表示：</p><script type="math/tex; mode=display">\left( u_I\times \dot{M}-\dot{u}_O\times \dot{F} \right) \dot{A}_{uo}=\dot{u}_o</script><p>可以得到闭环放大倍数：</p><script type="math/tex; mode=display">\dot{A}_{uf}=\frac{\dot{u}_O}{u_I}=\frac{\dot{M}\times \dot{A}_{uo}}{1+\dot{F}\times \dot{A}_{uo}}</script><p>当<script type="math/tex">\dot{A}_{uo}</script>趋于无穷时，上式简化为：</p><script type="math/tex; mode=display">\dot{A}_{uf}=\frac{\dot{u}_O}{u_I}\approx \frac{\dot{M}}{\dot{F}}</script><h3 id="M和F的求解方法"><a href="#M和F的求解方法" class="headerlink" title="M和F的求解方法"></a>M和F的求解方法</h3><p>$\dot{M}$ 的含义是，在<strong>不考虑输出回送</strong>的情况下，单纯的输入信号，有多少加载到了运放的输入端上——运放的<strong>正输入减去负输入</strong>：</p><script type="math/tex; mode=display">\dot{M}=\frac{\left. \dot{u}_+ \right|_{u_O=0}-\left. \dot{u}_- \right|_{u_O=0}}{u_I}</script><p>$\dot{F}$​ 的含义是，在<strong>不考虑输入</strong>的情况下，单纯的输出信号，有多少加载到了运放的反相输入上——运放的<strong>负输入减去正输入</strong>：</p><script type="math/tex; mode=display">\dot{F}=\frac{\left. \dot{u}_- \right|_{u_I=0}-\left. \dot{u}_+ \right|_{u_I=0}}{u_O}</script><blockquote><p><strong>注意：</strong></p><p>有些时候，$\dot{M}$和$\dot{F}$ 不同，相除出的$A_{uf}$可能相同，但是频率特性会有区别。</p></blockquote><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><blockquote><p><a href="https://www.bilibili.com/video/BV1jZ4y1p7M8/">新概念模拟电路|负反馈和运算放大器全集 西安交通大学杨建国 #第2册#_哔哩哔哩_bilibili</a></p></blockquote>]]></content>
+      
+      
       <categories>
-        <category>学习笔记</category>
+          
+          <category> 学习笔记 </category>
+          
       </categories>
-      <tags>
-        <tag>Note</tag>
-        <tag>Analog</tag>
-        <tag>OPA</tag>
-        <tag>Feedback</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>学习笔记-控制之美-控制理论从传递函数到状态空间</title>
-    <url>/2024/02/17/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E6%8E%A7%E5%88%B6%E4%B9%8B%E7%BE%8E-%E6%8E%A7%E5%88%B6%E7%90%86%E8%AE%BA%E4%BB%8E%E4%BC%A0%E9%80%92%E5%87%BD%E6%95%B0%E5%88%B0%E7%8A%B6%E6%80%81%E7%A9%BA%E9%97%B4/</url>
-    <content><![CDATA[<h1 id="【学习笔记】控制之美-控制理论从传递函数到状态空间"><a href="#【学习笔记】控制之美-控制理论从传递函数到状态空间" class="headerlink" title="【学习笔记】控制之美-控制理论从传递函数到状态空间"></a>【学习笔记】控制之美-控制理论从传递函数到状态空间</h1><h2 id="动态系统建模-传递函数"><a href="#动态系统建模-传递函数" class="headerlink" title="动态系统建模-传递函数"></a>动态系统建模-传递函数</h2><h2 id="动态系统建模-状态空间方程"><a href="#动态系统建模-状态空间方程" class="headerlink" title="动态系统建模-状态空间方程"></a>动态系统建模-状态空间方程</h2><h3 id="状态空间方程"><a href="#状态空间方程" class="headerlink" title="状态空间方程"></a>状态空间方程</h3><h4 id="状态空间方程表达式"><a href="#状态空间方程表达式" class="headerlink" title="状态空间方程表达式"></a>状态空间方程表达式</h4><p>用一系列的<strong>一阶</strong>微分方程表达系统的输入、输出及状态变量。</p>
-<blockquote>
-<p>对于n阶微分方程，可以设置n个状态变量，将n阶微分方程拆解为n个一阶微分方程，故系统的阶数等于状态变量的个数。</p>
-</blockquote>
-<p>一般形式：</p>
-<script type="math/tex; mode=display">
-\begin{cases}
-    \frac{\mathrm{d}\boldsymbol{z}\left( t \right)}{\mathrm{d}t}=\boldsymbol{Az}\left( t \right) +\boldsymbol{Bu}\left( t \right)\\
-    \boldsymbol{y}\left( t \right) =\boldsymbol{Cz}\left( t \right) +\boldsymbol{Du}\left( t \right)\\
-\end{cases}</script><p>符号说明：</p>
-<div class="table-container">
-<table>
-<thead>
-<tr>
-<th>符号</th>
-<th>名称</th>
-<th>维度</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>$\boldsymbol{z}(t)$</td>
-<td>状态变量</td>
-<td>n x 1</td>
-</tr>
-<tr>
-<td>$\boldsymbol{y}(t)$</td>
-<td>系统输出</td>
-<td>m x 1</td>
-</tr>
-<tr>
-<td>$\boldsymbol{u}(t)$</td>
-<td>系统输入</td>
-<td>p x 1</td>
-</tr>
-<tr>
-<td>$\boldsymbol{A}$</td>
-<td>状态矩阵</td>
-<td>n x n</td>
-</tr>
-<tr>
-<td>$\boldsymbol{B}$</td>
-<td>输入矩阵</td>
-<td>n x p</td>
-</tr>
-<tr>
-<td>$\boldsymbol{C}$</td>
-<td>输出矩阵</td>
-<td>m x n</td>
-</tr>
-<tr>
-<td>$\boldsymbol{D}$</td>
-<td>直接传递矩阵</td>
-<td>m x p</td>
-</tr>
-</tbody>
-</table>
-</div>
-<blockquote>
-<p>状态空间方程可以处理<strong>单输入单输出（Single Input Single Output, SISO）系统</strong>，也可以处理<strong>多输入多输出（Multiple Inputs Multiple Outputs, MIMO）系统</strong>。</p>
-</blockquote>
-<h4 id="状态空间方程与传递函数的关系"><a href="#状态空间方程与传递函数的关系" class="headerlink" title="状态空间方程与传递函数的关系"></a>状态空间方程与传递函数的关系</h4><p>对状态空间方程等号左右两端同时作拉普拉斯变换：</p>
-<script type="math/tex; mode=display">
-\mathcal{L} \left[ \frac{\mathrm{d}\boldsymbol{z}\left( t \right)}{\mathrm{d}t} \right] =\mathcal{L} \left[ \boldsymbol{Az}\left( t \right) +\boldsymbol{Bu}\left( t \right) \right] 
-\\
-\mathcal{L} \left[ \boldsymbol{y}\left( t \right) \right] =\mathcal{L} \left[ \boldsymbol{Cz}\left( t \right) +\boldsymbol{Du}\left( t \right) \right]</script><p>得到：</p>
-<script type="math/tex; mode=display">
-s\boldsymbol{Z}\left( s \right) =\boldsymbol{AZ}\left( s \right) +\boldsymbol{BU}\left( s \right) 
-\\
-\boldsymbol{Y}\left( s \right) =\boldsymbol{CZ}\left( s \right) +\boldsymbol{DU}\left( s \right)</script><p>调整，得到系统传递函数：</p>
-<script type="math/tex; mode=display">
-G\left( s \right) =\frac{\boldsymbol{Y}\left( s \right)}{\boldsymbol{U}\left( s \right)}=\boldsymbol{C}\left( s\boldsymbol{I}-\boldsymbol{A} \right) ^{-1}\boldsymbol{B}+\boldsymbol{D}</script><p>利用矩阵求逆公式：</p>
-<script type="math/tex; mode=display">
-\left( s\boldsymbol{I}-\boldsymbol{A} \right) ^{-1}=\frac{\left( s\boldsymbol{I}-\boldsymbol{A} \right) ^*}{\left| s\boldsymbol{I}-\boldsymbol{A} \right|}</script><p>最终得到：</p>
-<script type="math/tex; mode=display">
-G\left( s \right) =\frac{\boldsymbol{Y}\left( s \right)}{\boldsymbol{U}\left( s \right)}=\frac{\boldsymbol{C}\left( s\boldsymbol{I}-\boldsymbol{A} \right) ^*\boldsymbol{B}}{\left| s\boldsymbol{I}-\boldsymbol{A} \right|}+\boldsymbol{D}</script><p>分析上式可知，若令分母等于0，$\left| s\boldsymbol{I}-\boldsymbol{A} \right|=0$得到的s有两层含义：</p>
-<ol>
-<li>从传递函数角度看，它是传递函数的极点；</li>
-<li>从状态矩阵的角度看，它是矩阵$\boldsymbol{A}$的特征值。</li>
-</ol>
-<p>故可得出结论：</p>
-<p><strong>状态矩阵的特征值与其所对应的单输入单输出传递函数的极点相同，极点决定了系统的表现。</strong></p>
-<h3 id="相平面与相轨迹分析"><a href="#相平面与相轨迹分析" class="headerlink" title="相平面与相轨迹分析"></a>相平面与相轨迹分析</h3><p>对于状态空间方程，使用相平面与相轨迹的方法可以快速有效地分析系统。</p>
-<h4 id="相平面数学基础——特征值与特征向量"><a href="#相平面数学基础——特征值与特征向量" class="headerlink" title="相平面数学基础——特征值与特征向量"></a>相平面数学基础——特征值与特征向量</h4><p>对于给定方阵$\boldsymbol{A}$，它的特征向量$\boldsymbol{v}$经过矩阵$\boldsymbol{A}$线性变换后，得到的向量仍然与$\boldsymbol{v}$在同一条直线上，即：</p>
-<script type="math/tex; mode=display">
-\boldsymbol{Av}=\lambda \boldsymbol{v}</script><p>其中，$\boldsymbol{v}$为$\boldsymbol{A}$的特征向量，$\lambda$为$\boldsymbol{A}$的特征值。</p>
-<p>根据上式：</p>
-<script type="math/tex; mode=display">
-\left( \boldsymbol{A}-\lambda \boldsymbol{I} \right) \boldsymbol{v}=0</script><p>根据矩阵理论，如果上式有非零解，则$\left( \boldsymbol{A}-\lambda \boldsymbol{I} \right)$的行列式为0，即：</p>
-<script type="math/tex; mode=display">
-\left| \boldsymbol{A}-\lambda \boldsymbol{I} \right|=0</script><p>代值即可解出特征值，例如：</p>
-<script type="math/tex; mode=display">
-\lambda^2+\lambda-6=0</script><p>称为矩阵$\boldsymbol{A}$的<strong>特征方程</strong>，</p>
-<p>再将特征值回代第一条式子即可解出特征向量。</p>
-<h4 id="特征值与特征向量应用——线性方程组解耦"><a href="#特征值与特征向量应用——线性方程组解耦" class="headerlink" title="特征值与特征向量应用——线性方程组解耦"></a>特征值与特征向量应用——线性方程组解耦</h4><p><strong>耦合</strong>是指一个系统里两个或以上的状态变量存在相互影响、相互关联的作用。解耦就是解除耦合，就是将状态矩阵对角化。</p>
-<p>考虑一个包含两个状态变量的二阶系统，不考虑输入输出，写成状态空间方程：</p>
-<script type="math/tex; mode=display">
-\frac{\mathrm{d}\boldsymbol{z}\left( t \right)}{\mathrm{d}t}=\boldsymbol{Az}\left( t \right)</script><p>先定义<strong>过渡矩阵(Transition Matrix)</strong>：</p>
-<script type="math/tex; mode=display">
-\boldsymbol{P}=\left[ \begin{matrix}
-    \boldsymbol{v}_1&        \boldsymbol{v}_2\\
-\end{matrix} \right] =\left[ \begin{matrix}
-    v_{11}&        v_{21}\\
-    v_{12}&        v_{22}\\
-\end{matrix} \right]</script><p>其中$\boldsymbol{v}_1$和$\boldsymbol{v}_2$是矩阵$\boldsymbol{A}$对应的两个特征向量，可得</p>
-<script type="math/tex; mode=display">
-\boldsymbol{P}^{-1}\boldsymbol{AP}=\boldsymbol{P}^{-1}\boldsymbol{PD}
-\\
-\Rightarrow \boldsymbol{P}^{-1}\boldsymbol{AP}=\boldsymbol{D}</script><p>定义新的状态变量$\bar{\boldsymbol{z}}\left( t \right) $，令</p>
-<script type="math/tex; mode=display">
-\boldsymbol{z}\left( t \right) =\boldsymbol{P}\bar{\boldsymbol{z}}\left( t \right)</script><p>代入状态空间方程：</p>
-<script type="math/tex; mode=display">
-\boldsymbol{P}\frac{\mathrm{d}\bar{\boldsymbol{z}}\left( t \right)}{\mathrm{d}t}=\boldsymbol{AP}\bar{\boldsymbol{z}}\left( t \right)</script><p>左乘$\boldsymbol{P}^{-1}$得到：</p>
-<script type="math/tex; mode=display">
-\frac{\mathrm{d}\bar{\boldsymbol{z}}\left( t \right)}{\mathrm{d}t}=\boldsymbol{D}\bar{\boldsymbol{z}}\left( t \right) =\left[ \begin{matrix}
-    \lambda _1&        0\\
-    0&        \lambda _2\\
-\end{matrix} \right] \bar{\boldsymbol{z}}\left( t \right)</script><p>这就完成了线性方程组的解耦，解出$\bar{\boldsymbol{z}}(t)$后再左乘$\boldsymbol{P}$就能得到原状态变量$\boldsymbol{z}(t)$​</p>
-<h4 id="一维相轨迹"><a href="#一维相轨迹" class="headerlink" title="一维相轨迹"></a>一维相轨迹</h4><p><img src="image-20240224000628244.png" alt="一维相轨迹"></p>
-<h4 id="二维相轨迹"><a href="#二维相轨迹" class="headerlink" title="二维相轨迹"></a>二维相轨迹</h4><h3 id="动态系统分析方法"><a href="#动态系统分析方法" class="headerlink" title="动态系统分析方法"></a>动态系统分析方法</h3><ol>
-<li>描述系统：通过语言描述系统特性</li>
-<li>数学分析：使用数学工具对系统进行解析</li>
-<li>结果与讨论：分析结果和进行深层次的思考与讨论</li>
-</ol>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> Note </tag>
+            
+            <tag> Analog </tag>
+            
+            <tag> OPA </tag>
+            
+            <tag> Feedback </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>解决Hexo+Butterfly主题插入图片无法显示的问题</title>
+      <link href="/2024/02/14/%E8%A7%A3%E5%86%B3Hexo-Butterfly%E4%B8%BB%E9%A2%98%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+      <url>/2024/02/14/%E8%A7%A3%E5%86%B3Hexo-Butterfly%E4%B8%BB%E9%A2%98%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA%E7%9A%84%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<h2 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h2><p>使用Hexo和Butterfly主题，在Markdown文件中插入图片，使用Typora可以正常显示，但是本地网页和部署到Github Page上都无法正常显示。</p><p><img src="image-20240214210136603.png" alt="网页上显示的效果"></p><h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>对网页的图片右键-&gt;检查，发现：</p><p><img src="image-20240214210322385.png" alt="错误的图片地址"></p><p>对比<code>public</code>文件夹中的图片路径：</p><p><img src="image-20240214210422795.png" alt="public文件夹中的图片路径"></p><p>显然两者的路径是不同的，为了解决这个问题，需要修改插件。</p><h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><h3 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h3><p>在根目录运行：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-asset-image --save</span><br></pre></td></tr></table></figure><h3 id="修改插件"><a href="#修改插件" class="headerlink" title="修改插件"></a>修改插件</h3><p>原插件太老，已经不支持新版的Hexo了。</p><p>打开<code>Blog\node_modules\hexo-asset-image\index.js</code></p><p>将第58行修改为：</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$(<span class="variable language_">this</span>).<span class="title function_">attr</span>(<span class="string">&#x27;src&#x27;</span>, src);</span><br></pre></td></tr></table></figure><h3 id="修改Hexo配置"><a href="#修改Hexo配置" class="headerlink" title="修改Hexo配置"></a>修改Hexo配置</h3><p>修改根目录下的<code>_config.yml</code></p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">post_asset_folder:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure><h3 id="重新生成"><a href="#重新生成" class="headerlink" title="重新生成"></a>重新生成</h3><p>根目录下运行：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp; hexo g &amp; hexo s</span><br></pre></td></tr></table></figure><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://zhuanlan.zhihu.com/p/542101567">Hexo 图片插入无法显示的问题 - 知乎 (zhihu.com)</a></p>]]></content>
+      
+      
       <categories>
-        <category>学习笔记</category>
+          
+          <category> 踩坑 </category>
+          
       </categories>
-      <tags>
-        <tag>Note</tag>
-        <tag>Control Theory</tag>
-        <tag>Transfer Function</tag>
-        <tag>State Space</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>学习笔记-电子器件与材料</title>
-    <url>/2024/02/26/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E7%94%B5%E5%AD%90%E5%99%A8%E4%BB%B6%E4%B8%8E%E6%9D%90%E6%96%99/</url>
-    <content><![CDATA[<h1 id="电子材料概论"><a href="#电子材料概论" class="headerlink" title="电子材料概论"></a>电子材料概论</h1><h2 id="电子材料的分类"><a href="#电子材料的分类" class="headerlink" title="电子材料的分类"></a>电子材料的分类</h2><h3 id="按用途分类"><a href="#按用途分类" class="headerlink" title="按用途分类"></a>按用途分类</h3><h4 id="结构电子材料"><a href="#结构电子材料" class="headerlink" title="结构电子材料"></a>结构电子材料</h4><p>能承受一定的压力和重力，并能保持尺寸和大部分力学性质（强度、硬度及韧性）稳定的一类材料。结构电子材料在电子元器件中主要用来制作外壳、基片、框架、散热片、加固和封装等。</p>
-<h4 id="功能电子材料"><a href="#功能电子材料" class="headerlink" title="功能电子材料"></a>功能电子材料</h4><p>除强度性能外，还有其特殊功能，如能实现光、电、磁、热、力等不同形式的交互作用和转换的材料。功能材料对外界环境具有灵敏的反应能力。</p>
-<h3 id="按组成分类"><a href="#按组成分类" class="headerlink" title="按组成分类"></a>按组成分类</h3><h4 id="无机电子材料"><a href="#无机电子材料" class="headerlink" title="无机电子材料"></a>无机电子材料</h4><h5 id="金属材料"><a href="#金属材料" class="headerlink" title="金属材料"></a>金属材料</h5><p>以金属键结合。</p>
-<h5 id="非金属材料"><a href="#非金属材料" class="headerlink" title="非金属材料"></a>非金属材料</h5><p>以离子键和共价键结合。</p>
-<h4 id="有机电子材料"><a href="#有机电子材料" class="headerlink" title="有机电子材料"></a>有机电子材料</h4><p>以C、H、O、N、Cl、F等组成的高分子材料，大部分是以共价键和分子键结合。</p>
-<h3 id="按物理性质分类"><a href="#按物理性质分类" class="headerlink" title="按物理性质分类"></a>按物理性质分类</h3><ul>
-<li>导电材料</li>
-<li>超导材料</li>
-<li>半导体材料</li>
-<li>绝缘材料</li>
-<li>压电铁电材料</li>
-<li>磁性材料</li>
-<li>光电材料</li>
-<li>敏感材料</li>
-</ul>
-<h3 id="按应用领域分类"><a href="#按应用领域分类" class="headerlink" title="按应用领域分类"></a>按应用领域分类</h3><ul>
-<li>微电子材料</li>
-<li>电阻器材料</li>
-<li>电容器材料</li>
-<li>磁性材料</li>
-<li>光电子材料</li>
-<li>压电材料</li>
-<li>电声材料</li>
-<li>敏感吸波材料</li>
-<li>封装材料</li>
-</ul>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> Debug </tag>
+            
+            <tag> Hexo </tag>
+            
+            <tag> Butterfly </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>FOCModule</title>
+      <link href="/2024/02/05/FOCModule/"/>
+      <url>/2024/02/05/FOCModule/</url>
+      
+        <content type="html"><![CDATA[<p>FOC Module项目的目标是打造一款<strong>通用、易上手</strong>的有感FOC驱动器，只需要通过<strong>简单配置</strong>即可适配大多数无刷直流电机。</p><p><img src="1.jpg" alt="1"></p><p><img src="2.jpg" alt="2"></p><h2 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h2><ul><li>12~48V 10A</li><li>小尺寸</li><li>多接口</li><li>兼容多种磁编码器</li></ul><h2 id="接口"><a href="#接口" class="headerlink" title="接口"></a>接口</h2><h3 id="控制"><a href="#控制" class="headerlink" title="控制"></a>控制</h3><ul><li>CAN</li><li>RS-485</li></ul><h3 id="磁编码器"><a href="#磁编码器" class="headerlink" title="磁编码器"></a>磁编码器</h3><ul><li>I2C</li><li>SPI</li></ul><h2 id="上位机"><a href="#上位机" class="headerlink" title="上位机"></a>上位机</h2>]]></content>
+      
+      
       <categories>
-        <category>学习笔记</category>
+          
+          <category> 项目 </category>
+          
+          <category> 电机驱动 </category>
+          
       </categories>
-      <tags>
-        <tag>Note</tag>
-        <tag>Electronic Device</tag>
-        <tag>Electronic Material</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于我</title>
-    <url>/about/index.html</url>
-    <content><![CDATA[<p><img src="1.jpg" alt="1"></p>
-<ul>
-<li>蔡子睦</li>
-<li>电子科技大学<ul>
-<li>大三在读</li>
-<li>电子科学与技术（固体电子学方向）</li>
-<li>电子科协技术部部长</li>
-</ul>
-</li>
-<li>擅长<ul>
-<li>嵌入式软硬件开发</li>
-<li>无刷直流电机FOC控制</li>
-</ul>
-</li>
-</ul>
-<h2 id="联系"><a href="#联系" class="headerlink" title="联系"></a>联系</h2><ul>
-<li>BiliBili: <a href="https://space.bilibili.com/4577754">子睦Mo</a></li>
-<li>GitHub: <a href="https://github.com/Aiano">Aiano</a></li>
-<li>E-Mail: <a href="mailto:&#x41;&#x69;&#97;&#x6e;&#x6f;&#95;&#x63;&#x7a;&#109;&#64;&#x31;&#54;&#51;&#x2e;&#99;&#x6f;&#109;">&#x41;&#x69;&#97;&#x6e;&#x6f;&#95;&#x63;&#x7a;&#109;&#64;&#x31;&#54;&#51;&#x2e;&#99;&#x6f;&#109;</a></li>
-<li>QQ: 2293995622</li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
-    <title>友情链接</title>
-    <url>/link/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>标签</title>
-    <url>/tags/index.html</url>
-    <content><![CDATA[<p>这里是标签页</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>分类</title>
-    <url>/categories/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>test</title>
-    <url>/test/index.html</url>
-    <content><![CDATA[<h1 id="测试Hexo-Butterfly页面"><a href="#测试Hexo-Butterfly页面" class="headerlink" title="测试Hexo+Butterfly页面"></a>测试Hexo+Butterfly页面</h1><h2 id="数学"><a href="#数学" class="headerlink" title="数学"></a>数学</h2><p>测试一下数学显示效果。</p>
-<script type="math/tex; mode=display">
-E=mc^2</script><script type="math/tex; mode=display">
-\begin{eqnarray} 
-  \sigma(z) \equiv \frac{1}{1+e^{-z}}.
-\end{eqnarray}</script>]]></content>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> Project </tag>
+            
+            <tag> FOC </tag>
+            
+            <tag> BLDC </tag>
+            
+            <tag> Driver </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+    
+    
+    <entry>
+      <title>关于我</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[<p><img src="1.jpg" alt="1"></p><ul><li>蔡子睦</li><li>电子科技大学<ul><li>大三在读</li><li>电子科学与技术（固体电子学方向）</li><li>电子科协技术部部长</li></ul></li><li>擅长<ul><li>嵌入式软硬件开发</li><li>无刷直流电机FOC控制</li></ul></li></ul><h2 id="联系"><a href="#联系" class="headerlink" title="联系"></a>联系</h2><ul><li>BiliBili: <a href="https://space.bilibili.com/4577754">子睦Mo</a></li><li>GitHub: <a href="https://github.com/Aiano">Aiano</a></li><li>E-Mail: <a href="mailto:&#x41;&#x69;&#97;&#x6e;&#x6f;&#95;&#x63;&#x7a;&#109;&#64;&#x31;&#54;&#51;&#x2e;&#99;&#x6f;&#109;">&#x41;&#x69;&#97;&#x6e;&#x6f;&#95;&#x63;&#x7a;&#109;&#64;&#x31;&#54;&#51;&#x2e;&#99;&#x6f;&#109;</a></li><li>QQ: 2293995622</li></ul>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>友情链接</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[<p>这里是标签页</p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>test</title>
+      <link href="/test/index.html"/>
+      <url>/test/index.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="测试Hexo-Butterfly页面"><a href="#测试Hexo-Butterfly页面" class="headerlink" title="测试Hexo+Butterfly页面"></a>测试Hexo+Butterfly页面</h1><h2 id="数学"><a href="#数学" class="headerlink" title="数学"></a>数学</h2><p>测试一下数学显示效果。</p><script type="math/tex; mode=display">E=mc^2</script><script type="math/tex; mode=display">\begin{eqnarray}   \sigma(z) \equiv \frac{1}{1+e^{-z}}.\end{eqnarray}</script>]]></content>
+      
+    </entry>
+    
+    
+  
 </search>
